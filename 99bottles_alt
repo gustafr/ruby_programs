@@ -1,0 +1,6 @@
+num_at_start = 5
+while num_at_start > 1
+  puts num_at_start.to_s + ' bottles of beer on the wall,' + num_at_start.to_s + ' bottles of beer.'
+  num_at_start = num_at_start - 1
+  puts 'Take one down and pass it around, ' + num_at_start.to_s + ' bottles of beer on the wall.'
+end
